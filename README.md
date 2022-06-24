@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,8 +10,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Fetching Data From the API
 
 To retrieve exchange, exchange markets and the bitcoin current price for those exchanges, you would first need to create an environemnt file to retrieve your environment variables.
@@ -25,3 +21,10 @@ mv .env.example .env
 ```
 The following variables are required for api connectivity and communication: 
 - `ABYISS_API_KEY`
+
+## Screenshots
+
+<p align="center">
+  <img src="/public/screenshot/exchange-page.png" width="350" title="hover text">
+  <img src="/public/screenshot/currentprice-page.png" width="350" alt="accessibility text">
+</p>
